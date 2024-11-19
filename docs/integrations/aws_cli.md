@@ -106,7 +106,7 @@ aws --profile lakefs \
 To make the command shorter and more convenient, you can create an alias:
 
 ```shell
-alias awslfs='aws --endpoint https://lakefs.example.com --profile lakefs'
+alias awslfs='aws --endpoint-url https://lakefs.example.com --profile lakefs'
 ```
 
 Now, the ls command using the alias will be as follows:
