@@ -73,7 +73,7 @@ Here are some examples based on examples from the [Presto Hive connector example
 
 ### Example with schema
 
-Create a new schema named `main` that will store tables in a lakeFS repository named `example` branch: `master`:
+Create a new schema named `main` that will store tables in a lakeFS repository named `example` branch: `main`:
 ```sql
 CREATE SCHEMA main
 WITH (location = 's3a://example/main')
